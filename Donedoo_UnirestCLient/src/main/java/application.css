@@ -1,0 +1,259 @@
+/*applies to everything ------------------------------------------------------*/
+.root{
+		-fx-background-image: url("background.jpg");
+		-fx-background-size: 100% 100%;
+  	 	-fx-background-repeat: stretch;
+		-fx-background-position: center center;
+
+
+
+}
+/*do login buttons                  */
+.root  .button{
+
+		-fx-font-size:130%;
+		-fx-background-color: linear-gradient(ffa64d, cc6600);
+		-fx-background-radius: 10px;
+		-fx-border-color: cc6600;
+		-fx-border-radius: 10px;
+		-fx-opacity: 0.9;
+
+}
+
+
+.root  .button:hover {
+    	-fx-background-color: ffa64d;
+}
+
+
+/*do buttons task----------------------------------------------------------------*/
+#button1{ 
+		-fx-min-width: 250px;
+		-fx-max-width: 250px;
+		-fx-font-size:130%;
+		-fx-background-color: linear-gradient(#ff884d, #cc6600);
+		-fx-background-radius: 10px;
+		-fx-border-color: #cc6600;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-opacity: 0.9;
+
+
+}
+#button1:hover {
+    	-fx-background-color: #ffa64d;
+}
+
+#l1{
+
+		-fx-translate-x: 20 ;
+		-fx-translate-y: 40 ;
+
+}
+
+
+
+
+/*done buttons --------------------------------------------------------------*/
+#button2{
+		-fx-min-width: 250px;
+		-fx-max-width: 250px;
+		-fx-font-size: 130%;
+		-fx-background-color: linear-gradient(#99ff66, #44cc00);
+		-fx-background-radius: 10px;
+		-fx-border-color: #44cc00;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-opacity: 0.9;
+}
+#button2:hover {
+   		-fx-background-color: #99ff66;
+}
+
+#l2{
+		-fx-translate-x: 20 ;
+		-fx-translate-y: 40 ;
+
+}
+
+#l3{
+
+		-fx-translate-x: 20 ;
+		-fx-translate-y: 40 ;
+
+}
+
+#button3{
+		-fx-min-width: 250px;
+		-fx-max-width: 250px;
+		-fx-font-size: 130%;
+		-fx-background-color: linear-gradient(#ffb04d, #ce9d23);
+		-fx-background-radius: 10px;
+		-fx-border-color: #ce9d23;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply;
+		-fx-opacity: 0.9;
+}
+#button3:hover {
+   		-fx-background-color: #ffb04d;
+}
+
+#button4{
+		-fx-min-width: 250px;
+		-fx-max-width: 250px;
+		-fx-font-size: 130%;
+		-fx-background-color: linear-gradient(#ffe066, #e6b800);
+		-fx-background-radius: 10px;
+		-fx-border-color: #e6b800;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-opacity: 0.9;
+}
+#button4:hover {
+   		-fx-background-color: #EBe066;
+}
+
+
+#button5{ 
+		-fx-min-width: 250px;
+		-fx-max-width: 100px;
+		-fx-font-size:130%;
+		-fx-background-color: linear-gradient(#ff884d, #cc6600);
+		-fx-background-radius: 10px;
+		-fx-border-color: #cc6600;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-opacity: 0.9;
+
+
+}
+#button5:hover {
+    	-fx-background-color: #ffa64d;
+    	-fx-background-color: #ffa64d;
+}
+
+
+
+/* admin menu------------------------------------------------------------------- */
+#adminMenu>.button{
+	    -fx-min-width: 110px;
+	    -fx-min-height: 65px;
+		-fx-translate-y:40;
+		-fx-font-size: 130%;
+		-fx-background-color: linear-gradient(#91c8ff, #1188ff);
+		-fx-background-radius: 10px;
+		-fx-border-color: #1188ff;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-padding: 10px 5px 10px 5px;
+		-fx-opacity: 0.9;
+}
+
+#adminMenu > .button:hover {
+   		-fx-background-color: #91c8ff;
+}
+
+/* switch list------------------------------------------------------------------ */
+
+#goToDone{
+		-fx-max-width: 200px;
+		-fx-translate-y: 10px;
+		-fx-translate-x:45px;
+		-fx-font-size: 130%;
+		-fx-background-color: linear-gradient(#99ff66, #44cc00);
+		-fx-background-radius: 10px;
+		-fx-border-color: #44cc00;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-padding: 10px 5px 10px 5px;
+		-fx-opacity: 0.9;
+
+}
+#goToDone:hover {
+   		-fx-background-color: #99ff66;
+}
+#goToDo{
+		-fx-max-width: 200px;
+
+		-fx-translate-y: 10px;
+		-fx-translate-x: 45px;
+		-fx-font-size: 130%;
+		-fx-background-color: linear-gradient(ffa64d, cc6600);
+		-fx-background-radius: 10px;
+		-fx-border-color: cc6600;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-padding: 10px 5px 10px 5px;
+		-fx-opacity: 0.9;
+
+}
+#goToDo:hover {
+   		-fx-background-color: ffa64d;
+}
+
+/*dialog pane------------------------------------------------------------ */
+
+#pane > .button{
+		
+		-fx-max-width: 250px;
+		-fx-font-size: 130%;
+		-fx-background-color: linear-gradient(#99ff66, #44cc00);
+		-fx-background-radius: 10px;
+		-fx-border-color: #44cc00;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-opacity: 0.9;
+}
+#pane > .button:hover {
+   		-fx-background-color: #ffa64d;
+}
+
+
+.scroll-pane >.viewport{
+	-fx-background-color:transparent;
+}
+
+
+/*scroll pane backgroung removal */
+#scroll{
+    -fx-background-color: transparent;
+
+}
+
+#taskPane > .button{
+	    -fx-min-width: 250px;
+		-fx-max-width: 100px;
+		-fx-font-size:130%;
+		-fx-background-color: linear-gradient(#ff884d, #cc6600);
+		-fx-background-radius: 10px;
+		-fx-border-color: #cc6600;
+		-fx-border-radius: 10px;
+		-fx-blend-mode: multiply ;
+		-fx-opacity: 0.9;
+	
+}
+#taskPane > .button:hover {
+   		-fx-background-color: #ffa64d;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: linear-gradient(#0066cc, #011084);
+    -fx-opacity: 0.45;
+    -fx-background-radius: 10em;
+
+}
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-color: transparent;
+}
+
+
+
+
+
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
