@@ -1,4 +1,4 @@
-"# DoneDoo-" 
+"# DoneDoo- social collaboration task organizer" 
 
 Multiplatform three tier social collaboration task organizer application
 with JavaFX desktop GUI with Unirest, Retrofit Android client app,
